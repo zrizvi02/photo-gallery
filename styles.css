@@ -1,0 +1,37 @@
+img {
+  height:350px;
+  width:500px;
+  padding: 50px;
+  object-fit: cover;
+  filter: drop-shadow(2px 2px 10px #FFF985);
+}
+@media screen and (min-width: 1300px) {
+  img:hover {
+  background-color: #FFF985;
+  height: 400px;
+  width: 550px;
+}
+}
+@media screen and (max-width: 1300px) {
+  img:hover {
+    background-color:#FFF985;
+  }
+}
+
+div{
+  display: flex;
+  justify-content: center;
+  justify-content:space-between;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+h1{
+  font-family: Arial Narrow, sans-serif;
+  color: #4D392C;
+  border: 0px #595850 dashed;
+  text-align: center;
+  font-size: 120px;
+  font-weight: 90;
+  background-color: #FFF985;
+  text-shadow: 1px 1px 2px #555952;
+}
